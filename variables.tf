@@ -61,7 +61,7 @@ variable "default_platform" {
 variable "manage_aws_auth" {
   description = "Whether to apply the aws-auth configmap file."
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "aws_auth_additional_labels" {
